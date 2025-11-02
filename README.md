@@ -1,7 +1,7 @@
 
   # TROOT
 
-  This is a code bundle for TROOT. The original project is available at https://www.figma.com/design/pWcni8uyuOPvUN0R3KhZ67/TROOT.
+www.troot.in
 
   ## Running the code
 
