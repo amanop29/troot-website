@@ -2,6 +2,7 @@
       "name": "TROOT",
       "version": "0.1.0",
       "private": true,
+      "homepage": "https://amanop29.github.io/troot-website",
       "dependencies": {
             "@gsap/react": "^2.1.2",
             "@radix-ui/react-accordion": "^1.2.3",
@@ -58,6 +59,7 @@
             "@types/react-dom": "^19.2.2",
             "@vitejs/plugin-react-swc": "^3.10.2",
             "autoprefixer": "^10.4.21",
+            "gh-pages": "^6.3.0",
             "postcss": "^8.5.6",
             "tailwindcss": "^4.1.16",
             "typescript": "^5.9.3",
@@ -65,6 +67,9 @@
       },
       "scripts": {
             "dev": "vite",
-            "build": "vite build"
+            "build": "vite build",
+            "preview": "vite preview",
+            "predeploy": "npm run build",
+            "deploy": "gh-pages -d build"
       }
 }
